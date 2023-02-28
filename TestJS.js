@@ -66,3 +66,8 @@ let hasBeenWatched = true;
 document.querySelector('#episode-info').innerText = `Episode: ${episodeTitle}
 Duration: ${episodeDuration} min
 ${hasBeenWatched ? 'Already watched' : 'Not yet watched'}`
+
+// Les trois principaux types de données primitifs en JavaScript : number (nombre) ; boolean (valeur logique) ; string (chaîne de caractères).
+// Il existe d'autres types de données plus complexes.
+// Trois autres types de données primitifs dans JavaScript :   null  ,   undefined  et   symbol.
+// NOTA BENE : https://developer.mozilla.org/fr/docs/Web/JavaScript/Data_structures
