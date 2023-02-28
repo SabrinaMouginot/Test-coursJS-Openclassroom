@@ -1,3 +1,5 @@
+// LES VARIABLES
+
 // Create your variables here
 // ==========================================
 
@@ -20,6 +22,8 @@ paragraph.innerText = `${numberOfSeasons} seasons, ${numberOfEpisodes} episodes 
 
 Total viewing time: ${totalShowTime} minutes`
 
+
+// LES CONSTANTES
 
 // Create constants here
 // =====================================
@@ -46,3 +50,19 @@ calculateButton.addEventListener('click', () => {
   minutes.innerText = `${calcMinutes} minutes`;
   seconds.innerText = `${calcSeconds} seconds`;
 });
+
+
+//TYPE DE DONNEES
+
+// Create variables here
+// =========================================
+
+let episodeTitle = "Mon épisode-test";
+let episodeDuration = 100;
+let hasBeenWatched = true;
+
+// =========================================
+
+document.querySelector('#episode-info').innerText = `Episode: ${episodeTitle}
+Duration: ${episodeDuration} min
+${hasBeenWatched ? 'Already watched' : 'Not yet watched'}`
